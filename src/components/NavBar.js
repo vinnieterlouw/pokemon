@@ -1,13 +1,13 @@
-import { Link } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 
 export default function NavBar() {
   return (
     <div>
-      <Link to="/">Home</Link>
+      <NavLink to="/">Home</NavLink>
       {"-"}
-      <Link to="/discover">Discover</Link>
+      <NavLink to="/discover">Discover</NavLink>
       {"-"}
-      <Link to="/about">About</Link>
+      <NavLink to="/about">About</NavLink>
     </div>
   );
 }
